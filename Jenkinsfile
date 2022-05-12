@@ -22,9 +22,9 @@ pipeline {
                 echo 'testing'
             }
         }
-         stage('deploy') {
+         stage('release') {
             steps {
-                echo 'deploying'
+                echo 'releasing'
             }
         }
     }
